@@ -1,5 +1,5 @@
 
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import { ChakraProvider } from '@chakra-ui/react';
 import Header from './components/Header/Header';
@@ -12,14 +12,14 @@ function App() {
     <>
     <ChakraProvider>
       
-      <BrowserRouter>
+      <HashRouter>
         <Header></Header>
         <Routes>
           <Route path='' element={<TopHeadlines />}></Route>
           <Route path='discover' element={<Discover />}></Route>
         </Routes>
         <Footer></Footer>
-      </BrowserRouter>
+      </HashRouter>
     </ChakraProvider>
     </>
   )
