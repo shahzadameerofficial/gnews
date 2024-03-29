@@ -1,0 +1,48 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    /* color: var(--chakra-colors-blue-500); */
+    background-color: #ffffff;
+    box-shadow: 0 0 3px 0 #000000;
+    padding: .5rem;
+    margin-bottom: 1rem;
+}
+.logo{
+    color:#ffffff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family:cursive;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    outline: 2px solid var(--chakra-colors-blue-500);
+    outline-offset: 3px;
+    background-color: var(--chakra-colors-blue-500);
+    padding: 0px 10px;
+    border-radius: 0 10px;
+}
+.logo span{
+    color: rgb(228, 245, 0);
+    font-size: .9rem;
+}
+nav{
+    margin-right: auto;
+}
+header nav .navItem{
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 10px;
+    color: rgb(63, 63, 63);
+    padding-bottom: .95rem;
+    border-bottom: 3px solid transparent;
+}
+header nav .navItem.active{
+    border-bottom-color: var(--chakra-colors-blue-500);
+    color: var(--chakra-colors-blue-500);
+}
+img{
+    width: 48px;
+}

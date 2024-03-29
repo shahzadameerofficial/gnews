@@ -1,0 +1,13 @@
+.filters{
+    display: flex;
+    align-items: center;
+    margin: .5rem 0;
+    justify-content: space-between;
+    padding: 0 1rem;
+    flex-wrap: wrap;
+}
+.filters div{
+    display: flex;
+    align-items: center;
+    margin: .2rem 0;
+}

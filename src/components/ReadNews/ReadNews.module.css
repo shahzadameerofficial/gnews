@@ -1,0 +1,15 @@
+.body{
+    display: grid;
+    grid-template-columns: minmax(30%, 1fr) 1fr;
+    grid-gap: 1rem;
+}
+.left{
+    padding: .5rem;
+    background-color: #e5e6e6;
+    border-radius: .5rem;
+}
+@media screen and (max-width: 576px) {
+    .body{
+        grid-template-columns: 1fr;
+    }
+}

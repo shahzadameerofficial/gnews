@@ -1,0 +1,29 @@
+.title{
+    overflow:hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient:vertical;
+    display:-webkit-box;
+    white-space:normal;
+    font-size: 1rem !important;
+    color: var(--chakra-colors-blue-500) !important;
+    text-decoration: none;
+}
+.description{
+    overflow:hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient:vertical;
+    display:-webkit-box;
+    white-space:normal;
+    font-size: .8rem;
+}
+.author{
+    overflow:hidden;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient:vertical;
+    display:-webkit-box;
+    white-space:normal;
+    font-size: .8rem;
+}
+.link{
+    text-decoration: none;
+}
